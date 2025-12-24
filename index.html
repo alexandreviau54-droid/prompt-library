@@ -241,39 +241,27 @@
         </div>
         <div class="bd">
           <div class="list" id="promptList"></div>
-        </div>
-      </section>
-
-      <aside class="card">
-        <div class="hd">
-          <strong style="font-size:14px;letter-spacing:.2px">Mode d’emploi</strong>
-          <span class="badge">30 secondes</span>
-        </div>
-        <div class="bd sideNote">
-          <h3>Comment utiliser</h3>
-          <p>Choisis un prompt, clique <strong>Copier</strong>, colle-le dans ton IA, remplace les placeholders (ex: <code>[COLLER LE TEXTE]</code>), exécute.</p>
-
-          <h3>Gouvernance (simple)</h3>
-          <p>Garde cette page comme source de vérité. Si tu modifies un prompt, augmente la version (v1.1, v1.2...).</p>
-
-          <h3>Ajouter de nouveaux prompts</h3>
-          <p>Dans le fichier, cherche <strong>const PROMPTS</strong> et ajoute un objet. La page se met à jour automatiquement.</p>
-
-          <h3>Design CEO</h3>
-          <p>Tout est sobre, minimal, orienté exécution. Pas de gimmicks, pas de marketing.</p>
-        </div>
-      </aside>
-    </div>
-
-    <footer>
-      <div class="footRow">
-        <div>Prompt Library — <span style="opacity:.9">Alexandre Viau</span></div>
-        <div>Déployable sur Vercel en 3 minutes.</div>
       </div>
-    </footer>
+</section>
+
+<aside class="card">
+  <div class="hd">
+    <strong style="font-size:14px;letter-spacing:.2px">Mode d’emploi</strong>
+    <span class="badge">30 secondes</span>
   </div>
 
-  <div class="toast" id="toast">Copié.</div>
+  <div class="bd sideNote">
+    <h3>Comment utiliser</h3>
+    <p>
+      Choisis un prompt, clique <strong>Copier</strong>.<br>
+      Colle-le dans ton IA.<br>
+      Remplace les placeholders (ex. <code>[COLLER LE TEXTE]</code>).<br>
+      Exécute.
+    </p>
+  </div>
+</aside>
+
+<div class="toast" id="toast">Copié.</div>
 
   <script>
     const toast = document.getElementById('toast');
